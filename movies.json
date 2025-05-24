@@ -6,7 +6,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "Człowiek włamuje się do snów innych ludzi, by wykraść ich sekrety."
+        "description": "",
+        "watch_date": "2025-05-24"
     },
     {
         "title": "Interstellar",
@@ -15,7 +16,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 9.2,
-        "description": "Zespół astronautów podróżuje przez tunel czasoprzestrzenny w poszukiwaniu nowego domu dla ludzkości."
+        "description": "Zespół astronautów podróżuje przez tunel czasoprzestrzenny w poszukiwaniu nowego domu dla ludzkości.",
+        "watch_date": null
     },
     {
         "title": "Ojciec chrzestny",
@@ -24,7 +26,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 9.2,
-        "description": "Historia potężnej rodziny mafijnej w Ameryce i ich walka o władzę."
+        "description": "Historia potężnej rodziny mafijnej w Ameryce i ich walka o władzę.",
+        "watch_date": null
     },
     {
         "title": "Skazani na Shawshank",
@@ -33,7 +36,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 9.3,
-        "description": "Więzień skazany za morderstwo żony nawiązuje przyjaźń z innym osadzonym."
+        "description": "Więzień skazany za morderstwo żony nawiązuje przyjaźń z innym osadzonym.",
+        "watch_date": null
     },
     {
         "title": "Mroczny Rycerz",
@@ -42,7 +46,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 9.0,
-        "description": "Batman staje do walki z Jokerem, który terroryzuje Gotham City."
+        "description": "Batman staje do walki z Jokerem, który terroryzuje Gotham City.",
+        "watch_date": null
     },
     {
         "title": "Pulp Fiction",
@@ -51,7 +56,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 8.9,
-        "description": "Powiązane ze sobą historie gangsterów, bokserów i innych postaci z Los Angeles."
+        "description": "Powiązane ze sobą historie gangsterów, bokserów i innych postaci z Los Angeles.",
+        "watch_date": null
     },
     {
         "title": "Lista Schindlera",
@@ -60,7 +66,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 9.0,
-        "description": "Niemiecki przemysłowiec ratuje ponad tysiąc Żydów podczas Holocaustu."
+        "description": "Niemiecki przemysłowiec ratuje ponad tysiąc Żydów podczas Holocaustu.",
+        "watch_date": null
     },
     {
         "title": "Forrest Gump",
@@ -69,7 +76,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.8,
-        "description": "Historia prostodusznego mężczyzny, który mimowolnie uczestniczy w ważnych wydarzeniach historycznych."
+        "description": "Historia prostodusznego mężczyzny, który mimowolnie uczestniczy w ważnych wydarzeniach historycznych.",
+        "watch_date": null
     },
     {
         "title": "Fight Club",
@@ -78,7 +86,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.8,
-        "description": "Bezsenni mężczyzna tworzy podziemny klub walki jako formę terapii grupowej."
+        "description": "Bezsenni mężczyzna tworzy podziemny klub walki jako formę terapii grupowej.",
+        "watch_date": null
     },
     {
         "title": "Matrix",
@@ -87,7 +96,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.7,
-        "description": "Haker odkrywa, że rzeczywistość jest symulacją komputerową."
+        "description": "Haker odkrywa, że rzeczywistość jest symulacją komputerową.",
+        "watch_date": null
     },
     {
         "title": "Władca Pierścieni: Powrót Króla",
@@ -96,7 +106,8 @@
         "genre": "Fantasy",
         "status": "Obejrzany",
         "rating": 8.9,
-        "description": "Finałowa część trylogii o walce dobra ze złem w Śródziemiu."
+        "description": "Finałowa część trylogii o walce dobra ze złem w Śródziemiu.",
+        "watch_date": null
     },
     {
         "title": "Dobry, zły i brzydki",
@@ -105,7 +116,8 @@
         "genre": "Western",
         "status": "Obejrzany",
         "rating": 8.8,
-        "description": "Trzech rewolwerowców szuka skarbu podczas wojny secesyjnej."
+        "description": "Trzech rewolwerowców szuka skarbu podczas wojny secesyjnej.",
+        "watch_date": null
     },
     {
         "title": "Dwunastu gniewnych ludzi",
@@ -114,7 +126,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.9,
-        "description": "Ława przysięgłych rozważa werdykt w sprawie o morderstwo."
+        "description": "Ława przysięgłych rozważa werdykt w sprawie o morderstwo.",
+        "watch_date": null
     },
     {
         "title": "Władca Pierścieni: Drużyna Pierścienia",
@@ -123,7 +136,8 @@
         "genre": "Fantasy",
         "status": "Obejrzany",
         "rating": 8.8,
-        "description": "Hobbit wyrusza w niebezpieczną podróż, by zniszczyć magiczny pierścień."
+        "description": "Hobbit wyrusza w niebezpieczną podróż, by zniszczyć magiczny pierścień.",
+        "watch_date": null
     },
     {
         "title": "Gladiator",
@@ -132,7 +146,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Rzymski generał zostaje gladiatorem i szuka zemsty na cesarzu."
+        "description": "Rzymski generał zostaje gladiatorem i szuka zemsty na cesarzu.",
+        "watch_date": null
     },
     {
         "title": "Siedem",
@@ -141,7 +156,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.6,
-        "description": "Dwóch detektywów śledzi seryjnego mordercę inspirowanego siedmioma grzechami głównymi."
+        "description": "Dwóch detektywów śledzi seryjnego mordercę inspirowanego siedmioma grzechami głównymi.",
+        "watch_date": null
     },
     {
         "title": "Milczenie owiec",
@@ -150,7 +166,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.6,
-        "description": "Agentka FBI szuka pomocy u kanibalskiego psychiatry, by złapać innego seryjnego mordercę."
+        "description": "Agentka FBI szuka pomocy u kanibalskiego psychiatry, by złapać innego seryjnego mordercę.",
+        "watch_date": null
     },
     {
         "title": "Bardzo się staram",
@@ -159,7 +176,8 @@
         "genre": "Kryminał",
         "status": "Do obejrzenia",
         "rating": 8.3,
-        "description": "Alternatywna historia II wojny światowej z żołnierzami polującymi na nazistów."
+        "description": "Alternatywna historia II wojny światowej z żołnierzami polującymi na nazistów.",
+        "watch_date": null
     },
     {
         "title": "Casablanca",
@@ -168,7 +186,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Amerykański właściciel klubu nocnego pomaga byłej ukochanej i jej mężowi uciec z Maroka."
+        "description": "Amerykański właściciel klubu nocnego pomaga byłej ukochanej i jej mężowi uciec z Maroka.",
+        "watch_date": null
     },
     {
         "title": "Więzień Alcatraz",
@@ -177,7 +196,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 7.8,
-        "description": "Historia prawdziwego więźnia, który spędził lata w samotnej celi na Alcatraz."
+        "description": "Historia prawdziwego więźnia, który spędził lata w samotnej celi na Alcatraz.",
+        "watch_date": null
     },
     {
         "title": "Obywatel Kane",
@@ -186,7 +206,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 8.3,
-        "description": "Biografia fikcyjnego potentata medialnego i jego upadek."
+        "description": "Biografia fikcyjnego potentata medialnego i jego upadek.",
+        "watch_date": null
     },
     {
         "title": "Vertigo",
@@ -195,7 +216,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Detektyw z lękiem wysokości zostaje obsesyjnie zakochany w kobiecie, którą śledzi."
+        "description": "Detektyw z lękiem wysokości zostaje obsesyjnie zakochany w kobiecie, którą śledzi.",
+        "watch_date": null
     },
     {
         "title": "Psychoza",
@@ -204,7 +226,8 @@
         "genre": "Horror",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Młoda kobieta zostaje zamordowana w motelu prowadzonym przez dziwnego mężczyznę."
+        "description": "Młoda kobieta zostaje zamordowana w motelu prowadzonym przez dziwnego mężczyznę.",
+        "watch_date": null
     },
     {
         "title": "Taksówkarz",
@@ -213,7 +236,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Samotny taksówkarz w Nowym Jorku stopniowo wpada w obłęd."
+        "description": "Samotny taksówkarz w Nowym Jorku stopniowo wpada w obłęd.",
+        "watch_date": null
     },
     {
         "title": "Lot nad kukułczym gniazdem",
@@ -222,7 +246,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.7,
-        "description": "Pacjent szpitala psychiatrycznego buntuje się przeciwko opresyjnej pielęgniarce."
+        "description": "Pacjent szpitala psychiatrycznego buntuje się przeciwko opresyjnej pielęgniarce.",
+        "watch_date": null
     },
     {
         "title": "Chinatown",
@@ -231,7 +256,8 @@
         "genre": "Kryminał",
         "status": "Do obejrzenia",
         "rating": 8.2,
-        "description": "Prywatny detektyw w Los Angeles wpada w sieć korupcji i spisków."
+        "description": "Prywatny detektyw w Los Angeles wpada w sieć korupcji i spisków.",
+        "watch_date": null
     },
     {
         "title": "Szósty zmysł",
@@ -240,7 +266,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.1,
-        "description": "Psycholog dziecięcy pomaga chłopcu, który twierdzi, że widzi zmarłych."
+        "description": "Psycholog dziecięcy pomaga chłopcu, który twierdzi, że widzi zmarłych.",
+        "watch_date": null
     },
     {
         "title": "Nietykalni",
@@ -249,7 +276,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 7.9,
-        "description": "Agent federalny próbuje postawić przed sądem Al Capone podczas prohibicji."
+        "description": "Agent federalny próbuje postawić przed sądem Al Capone podczas prohibicji.",
+        "watch_date": null
     },
     {
         "title": "Terminator 2: Dzień sądu",
@@ -258,7 +286,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Cyborg z przyszłości chroni chłopca przed bardziej zaawansowanym robotem zabójcą."
+        "description": "Cyborg z przyszłości chroni chłopca przed bardziej zaawansowanym robotem zabójcą.",
+        "watch_date": null
     },
     {
         "title": "Obcy - 8. pasażer Nostromo",
@@ -267,7 +296,8 @@
         "genre": "Horror",
         "status": "Obejrzany",
         "rating": 8.4,
-        "description": "Załoga statku kosmicznego musi walczyć z niebezpieczną obcą formą życia."
+        "description": "Załoga statku kosmicznego musi walczyć z niebezpieczną obcą formą życia.",
+        "watch_date": null
     },
     {
         "title": "Blade Runner",
@@ -276,7 +306,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.1,
-        "description": "W dystopijnej przyszłości łowca androidów poluje na zbiegłe replikantów."
+        "description": "W dystopijnej przyszłości łowca androidów poluje na zbiegłe replikantów.",
+        "watch_date": null
     },
     {
         "title": "Apokalipsa dzisiaj",
@@ -285,7 +316,8 @@
         "genre": "Wojenny",
         "status": "Do obejrzenia",
         "rating": 8.4,
-        "description": "Kapitan armii amerykańskiej otrzymuje misję zabicia zbuntowanego pułkownika w Wietnamie."
+        "description": "Kapitan armii amerykańskiej otrzymuje misję zabicia zbuntowanego pułkownika w Wietnamie.",
+        "watch_date": null
     },
     {
         "title": "2001: Odyseja kosmiczna",
@@ -294,7 +326,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Podróż przez przestrzeń i czas odkrywająca tajemnice ewolucji ludzkości."
+        "description": "Podróż przez przestrzeń i czas odkrywająca tajemnice ewolucji ludzkości.",
+        "watch_date": null
     },
     {
         "title": "Lśnienie",
@@ -303,7 +336,8 @@
         "genre": "Horror",
         "status": "Obejrzany",
         "rating": 8.4,
-        "description": "Pisarz i jego rodzina spędzają zimę w opustoszałym hotelu, gdzie dziją się dziwne rzeczy."
+        "description": "Pisarz i jego rodzina spędzają zimę w opustoszałym hotelu, gdzie dziją się dziwne rzeczy.",
+        "watch_date": null
     },
     {
         "title": "Mechaniczna pomarańcza",
@@ -312,7 +346,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "W dystopijnej przyszłości młody przestępca przechodzi eksperymentalną terapię."
+        "description": "W dystopijnej przyszłości młody przestępca przechodzi eksperymentalną terapię.",
+        "watch_date": null
     },
     {
         "title": "Raging Bull",
@@ -321,7 +356,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 8.2,
-        "description": "Biografia boksera Jake'a LaMotta i jego życia pełnego przemocy."
+        "description": "Biografia boksera Jake'a LaMotta i jego życia pełnego przemocy.",
+        "watch_date": null
     },
     {
         "title": "Goodfellas",
@@ -330,7 +366,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 8.7,
-        "description": "Historia człowieka, który dorastał w mafii i jego ewentualny upadek."
+        "description": "Historia człowieka, który dorastał w mafii i jego ewentualny upadek.",
+        "watch_date": null
     },
     {
         "title": "Casino",
@@ -339,7 +376,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 8.2,
-        "description": "Mafia kontroluje kasyna w Las Vegas w latach 70. i 80."
+        "description": "Mafia kontroluje kasyna w Las Vegas w latach 70. i 80.",
+        "watch_date": null
     },
     {
         "title": "Żółtodziób",
@@ -348,7 +386,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Policjant pod przykrywką infiltruje mafię, podczas gdy mafioso infiltruje policję."
+        "description": "Policjant pod przykrywką infiltruje mafię, podczas gdy mafioso infiltruje policję.",
+        "watch_date": null
     },
     {
         "title": "Reservoir Dogs",
@@ -357,7 +396,8 @@
         "genre": "Kryminał",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Grupa przestępców próbuje dowiedzieć się, kto z nich jest konfidentem policji."
+        "description": "Grupa przestępców próbuje dowiedzieć się, kto z nich jest konfidentem policji.",
+        "watch_date": null
     },
     {
         "title": "Kill Bill: Część 1",
@@ -366,7 +406,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 8.1,
-        "description": "Była zabójczyni szuka zemsty na swojej drużynie, która próbowała ją zabić."
+        "description": "Była zabójczyni szuka zemsty na swojej drużynie, która próbowała ją zabić.",
+        "watch_date": null
     },
     {
         "title": "Django",
@@ -375,7 +416,8 @@
         "genre": "Western",
         "status": "Obejrzany",
         "rating": 8.4,
-        "description": "Uwolniony niewolnik staje się łowcą nagród i ratuje swoją żonę."
+        "description": "Uwolniony niewolnik staje się łowcą nagród i ratuje swoją żonę.",
+        "watch_date": null
     },
     {
         "title": "Dawno temu w Hollywood",
@@ -384,7 +426,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 7.6,
-        "description": "Aktor telewizyjny i jego kaskader próbują przetrwać w zmieniającym się Hollywood 1969 roku."
+        "description": "Aktor telewizyjny i jego kaskader próbują przetrwać w zmieniającym się Hollywood 1969 roku.",
+        "watch_date": null
     },
     {
         "title": "E.T.",
@@ -393,7 +436,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 7.8,
-        "description": "Chłopiec zaprzyjaźnia się z delikatnym kosmitą, który chce wrócić do domu."
+        "description": "Chłopiec zaprzyjaźnia się z delikatnym kosmitą, który chce wrócić do domu.",
+        "watch_date": null
     },
     {
         "title": "Szczęki",
@@ -402,7 +446,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "Gigantyczny rekin terroryzuje nadmorski kurort."
+        "description": "Gigantyczny rekin terroryzuje nadmorski kurort.",
+        "watch_date": null
     },
     {
         "title": "Indiana Jones i Poszukiwacze zaginionej Arki",
@@ -411,7 +456,8 @@
         "genre": "Przygodowy",
         "status": "Obejrzany",
         "rating": 8.4,
-        "description": "Archeolog szuka mitycznej Arki Przymierza przed nazistami."
+        "description": "Archeolog szuka mitycznej Arki Przymierza przed nazistami.",
+        "watch_date": null
     },
     {
         "title": "Park Jurajski",
@@ -420,7 +466,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.1,
-        "description": "Naukowcy odtwarzają dinozaury z DNA i tworzą park rozrywki."
+        "description": "Naukowcy odtwarzają dinozaury z DNA i tworzą park rozrywki.",
+        "watch_date": null
     },
     {
         "title": "Szeregowiec Ryan",
@@ -429,7 +476,8 @@
         "genre": "Wojenny",
         "status": "Obejrzany",
         "rating": 8.6,
-        "description": "Grupa żołnierzy zostaje wysłana na uratowanie pojedynczego żołnierza podczas D-Day."
+        "description": "Grupa żołnierzy zostaje wysłana na uratowanie pojedynczego żołnierza podczas D-Day.",
+        "watch_date": null
     },
     {
         "title": "Gwiezdne wojny: Nowa nadzieja",
@@ -438,7 +486,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.6,
-        "description": "Młody chłopiec dołącza do rebelii przeciwko złowrogemu Imperium Galaktycznemu."
+        "description": "Młody chłopiec dołącza do rebelii przeciwko złowrogemu Imperium Galaktycznemu.",
+        "watch_date": null
     },
     {
         "title": "Imperium kontratakuje",
@@ -447,7 +496,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.7,
-        "description": "Rebelianci uciekają przed siłami Imperium, podczas gdy Luke szuka treningu Jedi."
+        "description": "Rebelianci uciekają przed siłami Imperium, podczas gdy Luke szuka treningu Jedi.",
+        "watch_date": null
     },
     {
         "title": "Powrót Jedi",
@@ -456,7 +506,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Luke Skywalker prowadzi misję ratowania Hana Solo i pokonania Imperium."
+        "description": "Luke Skywalker prowadzi misję ratowania Hana Solo i pokonania Imperium.",
+        "watch_date": null
     },
     {
         "title": "Titanic",
@@ -465,7 +516,8 @@
         "genre": "Romans",
         "status": "Obejrzany",
         "rating": 7.8,
-        "description": "Epicka historia miłosna na pokładzie słynnego statku, który zatonął w 1912 roku."
+        "description": "Epicka historia miłosna na pokładzie słynnego statku, który zatonął w 1912 roku.",
+        "watch_date": null
     },
     {
         "title": "Avatar",
@@ -474,7 +526,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 7.8,
-        "description": "Człowiek w avatarze na obcej planecie zakochuje się w lokalnej kobiecie."
+        "description": "Człowiek w avatarze na obcej planecie zakochuje się w lokalnej kobiecie.",
+        "watch_date": null
     },
     {
         "title": "Obcy - Decydujące starcie",
@@ -483,7 +536,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.3,
-        "description": "Ripley wraca na planetę obcych z oddziałem marines."
+        "description": "Ripley wraca na planetę obcych z oddziałem marines.",
+        "watch_date": null
     },
     {
         "title": "Ojciec chrzestny II",
@@ -492,7 +546,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 9.0,
-        "description": "Kontynuacja sagi rodziny Corleone, pokazująca przeszłość i teraźniejszość."
+        "description": "Kontynuacja sagi rodziny Corleone, pokazująca przeszłość i teraźniejszość.",
+        "watch_date": null
     },
     {
         "title": "Ojciec chrzestny III",
@@ -501,7 +556,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 7.6,
-        "description": "Michael Corleone próbuje uciec od przeszłości przestępczej."
+        "description": "Michael Corleone próbuje uciec od przeszłości przestępczej.",
+        "watch_date": null
     },
     {
         "title": "Kasyno Royale",
@@ -510,7 +566,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "James Bond w swojej pierwszej misji jako agent 007."
+        "description": "James Bond w swojej pierwszej misji jako agent 007.",
+        "watch_date": null
     },
     {
         "title": "Skyfall",
@@ -519,7 +576,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 7.7,
-        "description": "Bond musi chronić M przed zemstą byłego agenta."
+        "description": "Bond musi chronić M przed zemstą byłego agenta.",
+        "watch_date": null
     },
     {
         "title": "Mad Max: Na drodze gniewu",
@@ -528,7 +586,8 @@
         "genre": "Akcja",
         "status": "Obejrzany",
         "rating": 8.1,
-        "description": "W postapokaliptycznej pustyni wojownik pomaga grupie kobiet uciec od tyrana."
+        "description": "W postapokaliptycznej pustyni wojownik pomaga grupie kobiet uciec od tyrana.",
+        "watch_date": null
     },
     {
         "title": "Blade Runner 2049",
@@ -537,7 +596,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "Nowy blade runner odkrywa sekret, który może zagrozić społeczeństwu."
+        "description": "Nowy blade runner odkrywa sekret, który może zagrozić społeczeństwu.",
+        "watch_date": null
     },
     {
         "title": "Diuna",
@@ -546,7 +606,8 @@
         "genre": "Sci-Fi",
         "status": "Do obejrzenia",
         "rating": 8.0,
-        "description": "Młody szlachcic musi chronić najbardziej wartościowy zasób we wszechświecie."
+        "description": "Młody szlachcic musi chronić najbardziej wartościowy zasób we wszechświecie.",
+        "watch_date": null
     },
     {
         "title": "Parasite",
@@ -555,7 +616,8 @@
         "genre": "Thriller",
         "status": "Obejrzany",
         "rating": 8.6,
-        "description": "Biedna rodzina infiltruje dom bogatej rodziny w Korei Południowej."
+        "description": "Biedna rodzina infiltruje dom bogatej rodziny w Korei Południowej.",
+        "watch_date": null
     },
     {
         "title": "Joker",
@@ -564,7 +626,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.4,
-        "description": "Historia pochodzenia słynnego złoczyńcy Batmana."
+        "description": "Historia pochodzenia słynnego złoczyńcy Batmana.",
+        "watch_date": null
     },
     {
         "title": "1917",
@@ -573,7 +636,8 @@
         "genre": "Wojenny",
         "status": "Do obejrzenia",
         "rating": 8.3,
-        "description": "Dwóch brytyjskich żołnierzy otrzymuje misję dostarczenia krytycznej wiadomości."
+        "description": "Dwóch brytyjskich żołnierzy otrzymuje misję dostarczenia krytycznej wiadomości.",
+        "watch_date": null
     },
     {
         "title": "Dunkerque",
@@ -582,7 +646,8 @@
         "genre": "Wojenny",
         "status": "Obejrzany",
         "rating": 7.8,
-        "description": "Ewakuacja sojuszniczych żołnierzy z plaży w Dunkierce podczas II wojny światowej."
+        "description": "Ewakuacja sojuszniczych żołnierzy z plaży w Dunkierce podczas II wojny światowej.",
+        "watch_date": null
     },
     {
         "title": "Tenet",
@@ -591,7 +656,8 @@
         "genre": "Sci-Fi",
         "status": "Do obejrzenia",
         "rating": 7.3,
-        "description": "Agent próbuje zapobiec III wojnie światowej używając odwrócenia czasu."
+        "description": "Agent próbuje zapobiec III wojnie światowej używając odwrócenia czasu.",
+        "watch_date": null
     },
     {
         "title": "Oppenheimer",
@@ -600,7 +666,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 8.4,
-        "description": "Biografia J. Roberta Oppenheimera, ojca bomby atomowej."
+        "description": "Biografia J. Roberta Oppenheimera, ojca bomby atomowej.",
+        "watch_date": null
     },
     {
         "title": "La La Land",
@@ -609,7 +676,8 @@
         "genre": "Musical",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "Jazzowy pianista i początkująca aktorka zakochują się w Los Angeles."
+        "description": "Jazzowy pianista i początkująca aktorka zakochują się w Los Angeles.",
+        "watch_date": null
     },
     {
         "title": "Whiplash",
@@ -618,7 +686,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.5,
-        "description": "Młody perkusista próbuje zaimponować bezlitosnego instruktora jazzu."
+        "description": "Młody perkusista próbuje zaimponować bezlitosnego instruktora jazzu.",
+        "watch_date": null
     },
     {
         "title": "Her",
@@ -627,7 +696,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 8.0,
-        "description": "Samotny pisarz zakochuje się w sztucznej inteligencji."
+        "description": "Samotny pisarz zakochuje się w sztucznej inteligencji.",
+        "watch_date": null
     },
     {
         "title": "Ex Machina",
@@ -636,7 +706,8 @@
         "genre": "Sci-Fi",
         "status": "Obejrzany",
         "rating": 7.7,
-        "description": "Programista testuje sztuczną inteligencję w formie pięknej kobiety-robota."
+        "description": "Programista testuje sztuczną inteligencję w formie pięknej kobiety-robota.",
+        "watch_date": null
     },
     {
         "title": "Wielki Gatsby",
@@ -645,7 +716,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 7.2,
-        "description": "Adaptacja klasycznej powieści o bogactwie i dekadencji w latach 20."
+        "description": "Adaptacja klasycznej powieści o bogactwie i dekadencji w latach 20.",
+        "watch_date": null
     },
     {
         "title": "Wilk z Wall Street",
@@ -654,7 +726,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 8.2,
-        "description": "Historia wzlotu i upadku brokera z Wall Street zamieszanego w korupcję."
+        "description": "Historia wzlotu i upadku brokera z Wall Street zamieszanego w korupcję.",
+        "watch_date": null
     },
     {
         "title": "Irlandczyk",
@@ -663,7 +736,8 @@
         "genre": "Kryminał",
         "status": "Do obejrzenia",
         "rating": 7.8,
-        "description": "Starzejący się zabójca na zlecenie wspomina swoje związki z mafią."
+        "description": "Starzejący się zabójca na zlecenie wspomina swoje związki z mafią.",
+        "watch_date": null
     },
     {
         "title": "Pojedynek",
@@ -672,7 +746,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 7.4,
-        "description": "Średniowieczny pojedynek wynikający z oskarżenia o gwałt."
+        "description": "Średniowieczny pojedynek wynikający z oskarżenia o gwałt.",
+        "watch_date": null
     },
     {
         "title": "House of Gucci",
@@ -681,7 +756,8 @@
         "genre": "Dramat",
         "status": "Do obejrzenia",
         "rating": 6.6,
-        "description": "Historia morderstwa w rodzinie założycieli domu mody Gucci."
+        "description": "Historia morderstwa w rodzinie założycieli domu mody Gucci.",
+        "watch_date": null
     },
     {
         "title": "Bohemian Rhapsody",
@@ -690,7 +766,8 @@
         "genre": "Dramat",
         "status": "Obejrzany",
         "rating": 7.9,
-        "description": "Biografia Freddie Mercury'ego i zespołu Queen."
+        "description": "Biografia Freddie Mercury'ego i zespołu Queen.",
+        "watch_date": null
     },
     {
         "title": "Rocketman",
@@ -699,6 +776,7 @@
         "genre": "Musical",
         "status": "Obejrzany",
         "rating": 7.3,
-        "description": "Fantazja biograficzna o życiu Eltona Johna."
+        "description": "Fantazja biograficzna o życiu Eltona Johna.",
+        "watch_date": null
     }
 ]

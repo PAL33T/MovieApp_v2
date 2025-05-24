@@ -1,4 +1,7 @@
 import tkinter as tk
+import matplotlib.pyplot as plt
+from collections import Counter, defaultdict
+
 from tkinter import ttk, messagebox
 from movie import Movie
 from movie_manager import MovieManager
@@ -38,11 +41,20 @@ class MovieApp:
         labels = ["Tytuł", "Reżyser", "Rok", "Gatunek", "Status", "Ocena", "Opis"]
         for i, text in enumerate(labels):
             ttk.Label(frm, text=text).grid(row=i, column=0, sticky="w", pady=2)
+
         for i, var in enumerate(self.vars):
-            if i == 6:
+            if i == 4:
+                # Combobox dla statusu z dwoma opcjami
+                cb = ttk.Combobox(frm, textvariable=var, values=["Obejrzany", "Do obejrzenia"], state="readonly")
+                cb.grid(row=i, column=1, sticky="ew", pady=2)
+                # Możesz ustawić domyślną wartość np.:
+                if not var.get():
+                    var.set("Do obejrzenia")
+            elif i == 6:
                 ttk.Entry(frm, textvariable=var, width=50).grid(row=i, column=1, sticky="ew", pady=2)
             else:
                 ttk.Entry(frm, textvariable=var).grid(row=i, column=1, sticky="ew", pady=2)
+
         frm.columnconfigure(1, weight=1)
 
         # Buttons
@@ -90,6 +102,15 @@ class MovieApp:
             self.tree.column(col, minwidth=50, width=100)
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
         self.tree.bind("<<TreeviewSelect>>", self.on_tree_select)
+
+        self.tree.pack(fill="both", expand=True, padx=10, pady=10)
+        self.tree.bind("<<TreeviewSelect>>", self.on_tree_select)
+
+        wykresy = ttk.Button(self.root, text="Generuj Wykresy", command=self.generate_charts)
+        wykresy.pack(pady=(0, 10))
+
+        details = ttk.Button(self.root , text="Więcej szczegółów", command=self.show_details)
+        details.pack(pady=(0, 10))
 
     def add_movie(self):
         movie = self.get_movie_from_fields()
@@ -143,8 +164,8 @@ class MovieApp:
             rating = float(self.rating_var.get())
             if not (0 <= rating <= 10):
                 raise ValueError("Ocena musi być od 0 do 10.")
-        except ValueError as e:
-            messagebox.showerror("Błąd", f"Błędne dane: {e}")
+        except ValueError:
+            messagebox.showerror("Błąd", f"Ocena musi być liczbą z przedziału od 0 do 10")
             return None
 
         title = self.title_var.get().strip()
@@ -271,3 +292,97 @@ class MovieApp:
         if key_func:
             self.filtered_movies.sort(key=key_func, reverse=self.sort_reverse)
             self.refresh_movie_list()
+
+    def generate_charts(self):
+        if not self.manager.movies:
+            messagebox.showinfo("Brak danych", "Brak filmów do analizy.")
+            return
+
+        # 1. Liczba filmów wg gatunku
+        genres = [m.genre for m in self.manager.movies]
+        genre_counts = Counter(genres)
+
+        # 2. Średnia ocena wg gatunku
+        genre_ratings = defaultdict(list)
+        for m in self.manager.movies:
+            genre_ratings[m.genre].append(m.rating)
+        avg_ratings = {genre: sum(ratings) / len(ratings) for genre, ratings in genre_ratings.items()}
+
+        # 3. Liczba filmów obejrzanych vs do obejrzenia
+        status_counts = Counter(m.status for m in self.manager.movies)
+
+        plt.figure(figsize=(14, 4))
+
+        # Wykres 1: Liczba filmów wg gatunku
+        plt.subplot(1, 3, 1)
+        plt.bar(genre_counts.keys(), genre_counts.values(), color="skyblue")
+        plt.title("Liczba filmów wg gatunku")
+        plt.xticks(rotation=45, ha="right")
+
+        # Wykres 2: Średnia ocena wg gatunku
+        plt.subplot(1, 3, 2)
+        plt.bar(avg_ratings.keys(), avg_ratings.values(), color="lightgreen")
+        plt.title("Średnia ocena wg gatunku")
+        plt.xticks(rotation=45, ha="right")
+        plt.ylim(0, 10)
+
+        # Wykres 3: Status filmów (wykres kołowy)
+        plt.subplot(1, 3, 3)
+        plt.pie(
+            status_counts.values(),
+            labels=status_counts.keys(),
+            autopct='%1.1f%%',
+            startangle=90,
+            colors=plt.cm.Paired.colors
+        )
+        plt.title("Status filmów")
+
+        plt.tight_layout()
+        plt.show()
+
+    def show_details(self):
+        selected_items = self.tree.selection()
+        if not selected_items:
+            return
+        item_id = selected_items[0]
+        index = self.tree.index(item_id)
+        movie = self.manager.movies[index]
+
+        details_text = (
+            f"Tytuł: {movie.title}\n"
+            f"Reżyser: {movie.director}\n"
+            f"Rok: {movie.year}\n"
+            f"Gatunek: {movie.genre}\n"
+            f"Status: {movie.status}\n"
+            f"Ocena: {movie.rating}\n"
+            f"Opis: {movie.description}\n"
+            f"Data obejrzenia: {movie.watch_date if movie.watch_date else 'Brak'}"
+        )
+
+        details_window = tk.Toplevel(self.root)
+        details_window.title("Szczegóły filmu")
+
+        # Kontener dla Text i Scrollbara
+        frame = ttk.Frame(details_window)
+        frame.pack(padx=10, pady=10, fill="both", expand=True)
+
+        # Pole tekstowe
+        text_widget = tk.Text(frame, wrap="word", width=50, height=15)
+        text_widget.pack(side="left", fill="both", expand=True)
+        text_widget.insert("1.0", details_text)
+        text_widget.config(state="disabled")
+
+        # Scrollbar pionowy
+        scrollbar = ttk.Scrollbar(frame, orient="vertical", command=text_widget.yview)
+        scrollbar.pack(side="right", fill="y")
+
+        # Połączenie scrollbara z Textem
+        text_widget.config(yscrollcommand=scrollbar.set)
+
+        # Przycisk zamknięcia
+        close_button = tk.Button(details_window, text="Zamknij", command=details_window.destroy)
+        close_button.pack(pady=(0, 10))
+
+
+
+

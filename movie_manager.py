@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from movie import Movie
 
 class MovieManager:
@@ -25,6 +26,14 @@ class MovieManager:
         self.save()
 
     def edit_movie(self, index, movie):
+        old_status = self.movies[index].status  # stary status filmu
+        new_status = movie.status  # nowy status filmu
+
+        if old_status != "Obejrzany" and new_status == "Obejrzany":
+            movie.watch_date = datetime.now().strftime("%Y-%m-%d")
+        elif new_status != "Obejrzany":
+            movie.watch_date = None
+
         self.movies[index] = movie
         self.save()
 
