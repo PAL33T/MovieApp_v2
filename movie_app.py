@@ -106,11 +106,15 @@ class MovieApp:
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
         self.tree.bind("<<TreeviewSelect>>", self.on_tree_select)
 
-        wykresy = ttk.Button(self.root, text="Generuj Wykresy", command=self.generate_charts)
-        wykresy.pack(pady=(0, 10))
+        add_info_frame = ttk.LabelFrame(self.root, text="Dodatkowe informacje")
+        add_info_frame.pack(fill="x", padx=10, pady=5)
 
-        details = ttk.Button(self.root , text="Więcej szczegółów", command=self.show_details)
-        details.pack(pady=(0, 10))
+
+        wykresy = ttk.Button(add_info_frame, text="Generuj Wykresy", command=self.generate_charts,)
+        wykresy.grid(row=0, column=0, pady=2)
+
+        details = ttk.Button(add_info_frame, text="Więcej szczegółów", command=self.show_details,)
+        details.grid(row=0, column=3, pady=2,padx=20)
 
     def add_movie(self):
         movie = self.get_movie_from_fields()
